@@ -1,1 +1,1 @@
-# Javascpript
+# Javascript
