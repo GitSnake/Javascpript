@@ -1,7 +1,4 @@
 
-function print(message) {
-  document.write(message);
-}
 
 
 // Ask three questions in the array using prompt & evaluate each answer
@@ -13,7 +10,7 @@ var questions = [
 ];
 
 // Keep track of the questions answered correctly & incorrectly
-
+var correctAnswers = 0;
 
 // Display the correct & incorrect questions in separate lists
 
