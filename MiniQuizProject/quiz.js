@@ -9,6 +9,10 @@ var questions = [
 
 // Keep track of the questions answered correctly & incorrectly
 var correctAnswers = 0;
+var questions;
+var answer;
+var response;
+var html;
 
 // Display the correct & incorrect questions in separate lists
 
