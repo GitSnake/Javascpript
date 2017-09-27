@@ -1,5 +1,5 @@
 
-// Ask three questions in the array using prompt & evaluate each answer
+// Three question two dimensional array
 var questions = [
 	['How many states are in the United States of America?', 50],
 	['How many continents are there?', 7],
@@ -14,16 +14,20 @@ var answer;
 var response;
 var html;
 
+
+// Use a loop to cycle through each question
+
+for (var i = 0; i < questions.length; i += 1) {
+	
+}
+
+
+
+
 // Display the correct & incorrect questions in separate lists
 
 
-// Build a two dimensional array to hold the questions & answers
-
-
 // Each element of the array represents one question & is an array composed of two elements. The question & answer
-
-
-// Use a loop to cycle through each question
 
 
 // Ask it using prompt, compare the response from the player to the answer in the array
