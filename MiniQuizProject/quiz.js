@@ -4,56 +4,33 @@ function print(message) {
 }
 
 
-// It will ask a series of questions and evaluate each answer.
+// Ask three questions in the array using prompt & evaluate each answer
 
 
-// The program should keep track of the number of questions answered correctly.
+// Keep track of the questions answered correctly & incorrectly
 
 
-// After all the questions are answered the program should display the number of questions that were correctly answered.
+// Display the correct & incorrect questions in separate lists
 
 
-// And the number that the player got wrong.
+// Build a two dimensional array to hold the questions & answers
 
 
-// You'll use a few concepts from this course to get this done.
+// Each element of the array represents one question & is an array composed of two elements. The question & answer
 
 
-// First a two dimensional array.
+// Use a loop to cycle through each question
 
 
-// You should use a two dimensional array to hold the questions and the answers.
-
-// Each element of the array represents one question and is itself an array composed of two elements. The question and the answer.
+// Ask it using prompt, compare the response from the player to the answer in the array
 
 
-// Create a two dimensional array with at least three questions in it.
+// Use an if statement to see if the player's answer matches the real answer
 
 
-// You'll also use a loop.
+// Loop finishes, you should know how many questions were correctly answered
 
 
-// You'll need to use a loop to cycle through each question.
-
-
-// Ask it, and compare the response from the player to the answer in the array.
-
-
-// You can use the prompt method to ask the question.
-
-
-// See the teacher's notes if you're not sure how the prompt method works.
-
-
-// You'll then use a conditional statement to see if the player's answer
-
-
-// matches the real answer.
-
-
-// When the loop is done, you should know how many questions were correctly answered.
-
-
-// So print that out to the screen.
+// Then print that out to the screen.
 
 
