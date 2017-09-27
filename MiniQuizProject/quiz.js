@@ -1,6 +1,4 @@
 
-
-
 // Ask three questions in the array using prompt & evaluate each answer
 var questions = [
 	['How many states are in the United States of America?', 50],
@@ -34,5 +32,9 @@ var correctAnswers = 0;
 
 
 // Then print that out to the screen.
+
+function print(message) {
+  document.write(message);
+}
 
 
