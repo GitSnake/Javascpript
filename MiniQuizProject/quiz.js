@@ -8,8 +8,7 @@ var questions = [
 ];
 
 // Keep track of the questions answered correctly & incorrectly
-var correctAnswers = 0;
-var questions;
+var correctAnswers 
 var answer;
 var response;
 var correct = [];
@@ -24,9 +23,13 @@ function print(message) {
 for (var i = 0; i < questions.length; i += 1) {
 	question = questions[i][0];
 	answer = questions[i][1];
-	response = parseInt(prompt(question));
+	response = prompt(question);
+	response = parseInt prompt(response);
 	if (response === answer) {
 		correctAnswers += 1;
+		correct.push(qustion);
+	} else{
+		wrong.push(qustion);
 	}
 }
 
