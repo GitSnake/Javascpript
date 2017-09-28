@@ -12,7 +12,8 @@ var correctAnswers = 0;
 var questions;
 var answer;
 var response;
-var html;
+var correct = [];
+var wrong = [];
 
 function print(message) {
   document.write(message);
