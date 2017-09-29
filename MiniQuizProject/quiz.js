@@ -20,6 +20,15 @@ function print(message) {
 	outputDiv.innerHTML = message;
 }
 
+function buildList(arr) {
+	var listHTML = '<ol>';
+		for (var i = 0; i < arr.length; i += 1) {
+			listHTML += '<li>' + '</li>';
+		}
+		listHTML += '</ol>';
+		return listHTML;
+}
+
 // Use a loop to cycle through each question
 
 for (var i = 0; i < questions.length; i += 1) {
