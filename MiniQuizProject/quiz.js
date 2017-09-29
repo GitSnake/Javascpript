@@ -13,6 +13,7 @@ var answer;
 var response;
 var correct = [];
 var wrong = [];
+var html;
 
 function print(message) {
   document.write(message);
