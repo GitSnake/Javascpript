@@ -6,11 +6,12 @@ const fruitList =
   "</ul>";
 
 
-const vegetableList = 
-  `<ul>
+const vegetableList = `
+  <ul>
     <li>Patato</li>
     <li>Onion</li>
     <li>Broccoli</li>
-  </ul>`;
+  </ul>
+  `;
 
 document.querySelector('.fruits').innerHTML = fruitList;
