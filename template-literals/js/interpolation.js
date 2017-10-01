@@ -6,6 +6,6 @@ function love(thing) {
   return `I like ${thing}`;
 }
 
-const sentence = `<p>${}, but ${}.</p>`;
+const sentence = `<p>${like('apples')}, but ${love('oranges')}.</p>`;
 
 document.querySelector('.interpolation').innerHTML = sentence;
