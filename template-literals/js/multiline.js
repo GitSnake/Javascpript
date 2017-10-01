@@ -15,3 +15,4 @@ const vegetableList = `
   `;
 
 document.querySelector('.fruits').innerHTML = fruitList;
+document.querySelector('.vegetables').innerHTML = vegatableList;
