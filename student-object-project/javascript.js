@@ -1,4 +1,7 @@
-const student = {
-	name: "Dave",
-	grades: [80, 85, 90, 95]
+let person = {
+	name: 'Sarah',
+	country: 'US',
+	age: 35,
+	treehouseStudent: true,
+	skills: ['JavaScript', 'HTML', 'CSS']
 };
