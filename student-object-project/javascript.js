@@ -23,7 +23,7 @@ function print(message) {
 
 for (var i = 0; i < questions.length; i += 1) {
   question = questions[i].question;
-  answer = questions[i];
+  answer = questions[i].answer;
   response = prompt(question);
   response = parseInt(response);
   if (response === answer) {
