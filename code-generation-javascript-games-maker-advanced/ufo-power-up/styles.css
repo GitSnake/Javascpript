@@ -1,6 +1,15 @@
+/* Main Styles */
+
+body{ background: #000 }
+img #atom{ width: 50px; position: absolute; }
+img #ufo{ width: 50px; position: absolute; top:0; left: 0; -webkit-transition: all 0.2s;}
+
+/* Class Styles */
 .atom-img{
 
 }
 .ufo-img{
-  
+
 }
+
+/* ID Styles */
