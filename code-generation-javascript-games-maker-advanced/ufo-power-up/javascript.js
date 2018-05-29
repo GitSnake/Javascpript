@@ -35,3 +35,21 @@ function handleKeys(e){
 	setTop("ufo",50*ufoY);
 	checkIfHitAtom();
 }
+
+function checkIfHitAtom(){
+	if((ufoX==atomX) && (ufoY==atomY)){
+		score++;
+		document.getElementById("scoreTB").innerText="Score: "+score;
+		moveAtom();
+		if(score==5){gameOver();}
+	}
+}
+
+function gameOver(){
+	clearInterval(gameTimer);
+	alert("Well done! Your time was: " + gameTime);
+	location.reload();
+}
+
+
+
