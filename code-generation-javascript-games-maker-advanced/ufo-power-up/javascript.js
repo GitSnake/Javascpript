@@ -25,3 +25,13 @@ function moveAtom(){
 	setLeft("atom",50*atomX);
 	setTop("atom",50*atomY);
 }
+
+function handleKeys(e){
+	if(e.keyCode==37){ufoX--;}
+	if(e.keyCode==39){ufoX++;}
+	if(e.keyCode==38){ufoY--;}
+	if(e.keyCode==40){ufoY++;}
+	setLeft("ufo",50*ufoX);
+	setTop("ufo",50*ufoY);
+	checkIfHitAtom();
+}
