@@ -18,3 +18,10 @@ function displayTime(){
 	gameTime++;
 	document.getElementById("timeTB").innerText="Time:"+gameTime;
 }
+
+function moveAtom(){
+	atomX=randomNumber(2,16);
+	atomY=randomNumber(2,16);
+	setLeft("atom",50*atomX);
+	setTop("atom",50*atomY);
+}
