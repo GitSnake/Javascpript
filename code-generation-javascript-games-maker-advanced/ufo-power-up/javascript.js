@@ -13,3 +13,8 @@ function startUp(){
 
 	gameTimer=window.setInterval(displayTime, 1000);
 }
+
+function displayTime(){
+	gameTime++;
+	document.getElementById("timeTB").innerText="Time:"+gameTime;
+}
