@@ -1,7 +1,7 @@
 /* Main Styles */
 
 body{ background: #000 }
+div{ position: absolute;background: yellow;width: 50px;height: 50px; }
 /* ID Styles */
-#mazeHolder{ position: absolute; top: 0; left: 0; }
-#player{ position:absolute; width: 50px;
-	top:0; left: 0; -webkit-transition: all 0.2s; }
+#mazeHolder{ position:absolute;top:0;left:0; }
+#player{ position:absolute;width:50px;top:50px;left:0; -webkit-transition: all 0.2s; }
