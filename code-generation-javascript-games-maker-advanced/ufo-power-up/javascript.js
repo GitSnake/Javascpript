@@ -1,4 +1,4 @@
-const score=0, gameTime=0, gameTimer, ufoX=0, ufoY=0;
+var score=0, gameTime=0, gameTimer, ufoX=0, ufoY=0;
 
 onkeydown=handleKeys;
 
