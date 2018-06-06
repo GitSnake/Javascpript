@@ -15,3 +15,8 @@ var mazeData=[
 onkeydow=handleKeys;
 onready=drawMaze();
 var px=0, py=1;
+
+/* functions */
+function setLeft(id,x){document.getElementById(id).style.left=x+"px";}
+
+function setTop(id,y){document.getElementById(id).style.top=y+"px";}
