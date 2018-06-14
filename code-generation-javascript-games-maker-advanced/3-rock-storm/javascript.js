@@ -18,3 +18,8 @@ function isOverlapping(ob1,ob2){
 (getTop(ob1)+100>getTop(ob2)) &&
 (getTop(ob1)<getTop(ob2)+100));
 }
+
+/* startup function */
+function startUp(){
+	gameTimer=window.setInterval(moveThings,20);
+}
