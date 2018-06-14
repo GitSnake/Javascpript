@@ -1,0 +1,4 @@
+body{background:#8060AA;}
+#scoreTB{position:absolute;color:yellow;font:20px Arial;}
+img #ship{position:absolute;width:100px;left:50px;}
+img #rock1, img #rock2, img #rock3{position:absolute;width:100px;left:-200px;}
