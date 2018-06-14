@@ -16,7 +16,7 @@ onkeydow=handleKeys;
 onready=drawMaze();
 var px=0, py=1;
 
-/* functions */
+/* draw the maze */
 function setLeft(id,x){document.getElementById(id).style.left=x+"px";}
 function setTop(id,y){document.getElementById(id).style.top=y+"px";}
 function drawMaze(){
@@ -34,3 +34,22 @@ function drawMaze(){
 		}
 	}
 }
+
+/* move the player */
+
+function handleKeys(e){
+	if((e.keyCode==37)&&mazeData[py][px-1]==0){px--;}
+	if((e.keyCode==39)&&mazeData[py][px+1]==0){px++;}
+	if((e.keyCode==38)&&mazeData[py-1][px]==0){px--;}
+	if((e.keyCode==40)&&mazeData[py+1][px]==0){px++;}
+	setLeft("player",px*50);
+	setTop("player",py*50);
+	if(px==7 && py==5{"Well done!"};)
+}
+
+
+
+
+
+
+
