@@ -11,7 +11,6 @@ var mazeData=[
 ];
 
 /* game variables */
-
 onkeydow=handleKeys;
 onready=drawMaze();
 var px=0, py=1;
@@ -36,7 +35,6 @@ function drawMaze(){
 }
 
 /* move the player */
-
 function handleKeys(e){
 	if((e.keyCode==37)&&mazeData[py][px-1]==0){px--;}
 	if((e.keyCode==39)&&mazeData[py][px+1]==0){px++;}
@@ -44,12 +42,5 @@ function handleKeys(e){
 	if((e.keyCode==40)&&mazeData[py+1][px]==0){px++;}
 	setLeft("player",px*50);
 	setTop("player",py*50);
-	if(px==7 && py==5{"Well done!"};)
+	if(px==7 && py==5){alert("Well done!");}
 }
-
-
-
-
-
-
-
