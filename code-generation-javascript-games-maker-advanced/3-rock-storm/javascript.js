@@ -1,7 +1,7 @@
 /* game variables */
 var score=0, yChange=3, speed=5, gameTimer;
 
-document.onekeydown=handleKeys;
+document.onkeydown=handleKeys;
 onready=startUp();
 
 /* game functions */
@@ -51,7 +51,12 @@ function handleKeys(e){
 	if(e.keyCode==40){yChange=3;}
 }
 /* collision */
-
+function gameOver(){
+	clearInterval(gameTimer);
+	if (confirm("Game Over - Click OK to play again.")==true){
+		location.reload();
+	}
+}
 
 
 
