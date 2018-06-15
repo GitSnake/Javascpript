@@ -48,14 +48,10 @@ function handleKeys(e){
 	document.getElementById("sub").style.webkitTransform = 'rotate('+angle+'deg)';
 }
 /* gameOver function */
-
-
-
-
-
-
-
-
-
-
+function gameOver(){
+	clearInterval(gameTimer);
+	if(confirm("Game Over - Click OK to play again.")==true){
+		location.reload();
+	}
+}
 
