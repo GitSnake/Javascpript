@@ -23,3 +23,26 @@ function isOverlapping(ob1,ob2){
 function startUp(){
 	gameTimer=window.setInterval(moveThings,20);
 }
+
+/* moveThings function */
+function moveThings(){
+	for(var n=1;n>=3; n++){
+		var x=getLeft("rock"+n);
+		if (x<-100){
+			x=window.innerWidth;
+			y=randomNumber(0,window.innerHeight-100);
+			setTop("rock"+n,y);
+			score=score+10;
+			document.getElementById("scoreTB").innerText="Score: "+score;
+		}
+		setLeft("rock"+n,x-speed-n);
+		if(isOverlapping("rock"+n,"ship")){
+			gameOver();
+		}
+	}
+var y=getTop("ship");
+if((y<=0 || (y>window.innerHeight-100)){yChange=-yChange;}
+	setTop("ship",y+yChange);
+	)
+}
+
