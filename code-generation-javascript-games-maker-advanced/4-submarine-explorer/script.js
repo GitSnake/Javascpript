@@ -41,8 +41,13 @@ function checkHit(){
 	}
 }
 
-
-
+/* steer function */
+function handleKeys(e){
+	if(e.keyCode==38){angle=angle-10;}
+	if(e.keyCode==40){angle=angle+10;}
+	document.getElementById("sub").style.webkitTransform = 'rotate('+angle+'deg)';
+}
+/* gameOver function */
 
 
 
