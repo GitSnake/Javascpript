@@ -45,4 +45,16 @@ if((y<=0 || (y>window.innerHeight-100)){yChange=-yChange;}
 	setTop("ship",y+yChange);
 	)
 }
+/* change direction */
+function handleKeys(e){
+	if(e.keyCode==38){yChange=-3;}
+	if(e.keyCode==40){yChange=3;}
+}
+/* collision */
+
+
+
+
+
+
 
