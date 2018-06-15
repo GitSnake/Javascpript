@@ -29,3 +29,28 @@ function moveThings(){
 	checkHit();
 	if (y>window.innerHeight){gameOver();}
 }
+
+/* hit calculation function */
+function checkHit(){
+	if(isOverlapping("sub","coin")){
+		score++;
+		document.getElementById("scoreTB").innerHTML="Score: "+score;
+		setTop("coin",0);
+		setLeft("coin",randomNumber(0,innerWidth-100));
+		new Audio("beep.mp3").play();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
