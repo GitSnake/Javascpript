@@ -17,4 +17,15 @@ function isOverlapping(ob1,ob2){
 /* moveThings function */
 function moveThings(){
 	subX=subX+speed*Math.cos(Math.PI*angle/180);
+	subY=subY+speed*Math.sin(Math.PI*angle/180);
+	if (subX<-100){subX=innerWidth;}
+	if (subX>innerWidth) {subX=-100;}
+	if (subY<-100) {subY=innerHeight;}
+	if (subY>innerHeight){subY=-100;}
+	setLeft("sub",subX);
+	setTop("sub",subY);
+	y=getTop("coin");
+	setTop("coin",y+1+score*0.1);
+	checkHit();
+	if (y>window.innerHeight){gameOver();}
 }
