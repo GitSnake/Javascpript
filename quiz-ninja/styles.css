@@ -26,7 +26,14 @@ h1{
 	margin: 0;
 }
 button{
-
+	color: #fff;
+	background: #611BBD;
+	border-color: #130269;
+	border-radius: 4px;
+	margin: 0.2em 0;
+	display: block;
+	width: 100%;
+	font-size: 24px;
 }
 #question{
 
