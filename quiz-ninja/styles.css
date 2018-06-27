@@ -45,8 +45,9 @@ button{
 	text-align: center;
 }
 .correct{
-
+	background: #0c0;
 }
 .wrong{
-	
+	color: #fff;
+	background: #c00;
 }
