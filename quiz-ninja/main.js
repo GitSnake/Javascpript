@@ -1,1 +1,1 @@
-alert('Welcome too Quiz Ninja!');
+alert('Welcome to Quiz Ninja!');
